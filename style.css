@@ -1,0 +1,13 @@
+#ch{
+background:crimson;
+width: 100px;
+height: 100px;
+position:absolute;left:20px;bottom:200px;
+transition: 500ms;
+}
+div#enemy{
+    position:absolute;left:1000%;top:50%;
+}
+body{
+    background:#333333;
+}
