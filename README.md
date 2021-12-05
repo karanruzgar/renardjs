@@ -82,7 +82,7 @@ HTML:
 <body>
 <div id="ch"></div>
 <div id="hi"><pre>
-    <center><img src="logos/logo.svg" alt="" width="300px"></center>
+    <center><img src="https://raw.githubusercontent.com/Yefee8/renardjs/7857b8c592d04bdb29355ae05d5d255b5ec2bac4/logos/logo.svg" alt="" width="300px"></center>
     Welcome to the renard.js demo.
     if you want read the documentation go <a href="https://github.com/yefee8/renardjs">github</a>
 <center>go  3000px ►</center>
