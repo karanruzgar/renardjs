@@ -1,4 +1,4 @@
-# Renard.js 1.1, A basic game framework for JavaScript 
+# Renard.js 1.2, A basic game framework for JavaScript 
 ![renard.js logo](https://raw.githubusercontent.com/Yefee8/renardjs/9cb3f8ed4b3acff7c2c99937c81e2fe0cb68a856/logos/logo.svg)
 
 ## Update log
@@ -107,15 +107,15 @@ end!
 <script src="https://yefee8.github.io/renardjs/script.js">
 </script>
 <script>
-    character = 'ch'; //
-    speed = 100 //
+    character = 'ch'; 
+    speed = 100 
     jump = true
     jumpPower = 100
     bottom = 100;
     fallSpeed = 250
-    chWidth = 100 //
-    rightLimit = 0 //
-    leftLimit = 3000 //
+    chWidth = 100 
+    leftLimit = 0 
+    rightLimit= 3000 
 </script>
 </body>
 </html>
