@@ -3,6 +3,7 @@
 
 ## Update log
 - Speed bug solved.
+- rightLimit & leftLimit bug solved.
 
 ## How to use?
 ### Use cdn
