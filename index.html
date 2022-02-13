@@ -1,48 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Basic JavaScript game framework / library - renardjs / renard.js </title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./logos/logonobg.png">
-    <meta name="description" content="Open source game framework for JavaScript, Renard.js / Renardjs">
-    <meta name="author" content="Yefee">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Renard, Renardjs, Renard.js, Game, Library, JavaScript game library, js, js game library, framework, js game framework, javascript game framework">
+    <link rel="stylesheet" href="./index.css">
 </head>
 <body>
 <div id="ch"></div>
-<div id="hi"><pre>
-    <center><img src="logos/logo.svg" alt="renard.js logo" width="300px"></center>
-    Welcome to the renard.js demo.
-    if you want read the documentation go <a href="https://github.com/Yefee8/renardjs/">github</a>
-<center>go  3000px ►</center>
-</pre>
-</div>
-<div style="
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 35px;
-font-family: -apple-system;
-position: absolute;left:1500px;top: 0;
-color:white;
-">
-end!
-</div>
-<script src="https://yefee8.github.io/renardjs/script.js"></script>
-</script>
+<div class="c"></div>
+<script src="./main.js"></script>
 <script>
-    character = 'ch'; 
-    speed = 100 
-    jump = true
-    jumpPower = 100
-    bottom = 100;
-    fallSpeed = 250
-    chWidth = 100 
-    leftLimit = 0 
-    rightLimit= 3000 
+    useMoveSys('ch', 100, 100,0, 2 * window.innerWidth);
 </script>
 </body>
 </html>

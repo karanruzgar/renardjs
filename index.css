@@ -1,0 +1,12 @@
+#ch{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    transition: 500ms;
+}
+.c{
+    position: absolute;left:200%;
+    width: 10px;
+    height: 10px;
+    background: indianred;
+}
