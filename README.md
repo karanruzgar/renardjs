@@ -16,7 +16,7 @@ Because it's lightweight, easy to use and completely free!
 
 You can add Renard.js with to different ways
 
-- Using cdn
+1. Using cdn
 ```
 <script src="https://yefee8.github.io/renardjs/minified.js"></script>
 <script>
@@ -24,7 +24,7 @@ You can add Renard.js with to different ways
 </script>
 ```
 
-- Cloning the project
+2. Cloning the project
 ```
 git clone ...
 ```
@@ -56,17 +56,17 @@ useMoveSys('ch', '100', 100, 0, window.innerWidth);
 ```
 let's expalin ```id``` and other things.
 
-- id
+1. id
 id is the id of our character.
 
-- width
+2. width
 width is the width of our character.
 
-- speed
+3. speed
 speed is the speed of our character
 
-- leftLimit
+4. leftLimit
 leftLimit is the limit that our character can move to the left maximum.
 
-- rightLimit
+5. rightLimit
 rightLimit is the limit that our character can move to the right maximum.
