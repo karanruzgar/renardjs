@@ -7,6 +7,7 @@ function useMoveSys(id, width, speed, leftLimit, rightLimit){
     let count = 0
     let d = true
     let a = true
+    let w = true
     document.addEventListener('keydown', (e)=>{
         let pot = speed * count + width * 2
         if(e.key === 'd'){
@@ -46,6 +47,18 @@ function useMoveSys(id, width, speed, leftLimit, rightLimit){
                     },200)
                 }
             })
+        }
+        else if(e.key === 'w'){
+            if(w){
+                document.getElementById(id).style.transform = `translate3d(${speed * count}px, -${speed}px, 0`
+                setTimeout(()=>{
+                    document.getElementById(id).style.transform = `translate3d(${speed * count}px, 0, 0`
+                },speed*2)
+                w = false
+                setTimeout(()=>{
+                    w = true
+                },speed*2+200)
+            }
         }
     });
 }

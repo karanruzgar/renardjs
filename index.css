@@ -3,6 +3,7 @@
     height: 100px;
     background: crimson;
     transition: 500ms;
+    position: absolute;bottom: 25px;
 }
 .c{
     position: absolute;left:200%;
