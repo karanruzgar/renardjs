@@ -56,17 +56,22 @@ useMoveSys('ch', '100', 100, 0, window.innerWidth);
 ```
 let's expalin ```id``` and other things.
 
-1. id
+1. id:
+
 id is the id of our character.
 
-2. width
+2. width:
+
 width is the width of our character.
 
-3. speed
+3. speed:
+
 speed is the speed of our character
 
-4. leftLimit
+4. leftLimit:
+
 leftLimit is the limit that our character can move to the left maximum.
 
-5. rightLimit
+5. rightLimit:
+
 rightLimit is the limit that our character can move to the right maximum.
