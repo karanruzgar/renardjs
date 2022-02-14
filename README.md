@@ -28,3 +28,45 @@ You can add Renard.js with to different ways
 ```
 git clone ...
 ```
+
+Now we can use Renard.js.
+
+#### Adding Moving System
+for adding moving system, firstly we need a characther(it must have an id)
+
+```
+<div id="ch"></div>
+```
+after that, we need to use ```useMoveSys(id, width, speed, leftLimit, rightLimit)``` function. 
+
+```
+<div id="ch"
+style="
+width:100px;
+height:100px;
+background:crimson;
+"
+></div>
+
+<script src="https://yefee8.github.io/renardjs/minified.js"></script>
+
+<script>
+useMoveSys('ch', '100', 100, 0, window.innerWidth);
+</script>
+```
+let's expalin ```id``` and other things.
+
+1- id
+id is the id of our character.
+
+2- width
+width is the width of our character.
+
+3- speed
+speed is the speed of our character
+
+4- leftLimit
+leftLimit is the limit that our character can move to the left maximum.
+
+5- rightLimit
+rightLimit is the limit that our character can move to the right maximum.
